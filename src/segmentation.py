@@ -6,6 +6,7 @@ from utils import get_random_plate, display
 
 def segment_characters(
     image,
+    plate_name=None
     clahe_clipLimit=3,
     clahe_tileGridSize=8,
     erosion_iters=1,
